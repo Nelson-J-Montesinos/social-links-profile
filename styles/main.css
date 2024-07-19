@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  height: 100vh;
+  background-color: #141414;
+  display: flex;
+  justify-content: center; /* center horizontally */
+  align-items: center; /* center vertically */
+}
+
+.profile-card {
+  width: 25%;
+  height: 80%;
+  border-radius: 5px;
+  background-color: #1f1f1f;
+}
+
+.profile-info {
+  height: 35%;
+  margin-bottom: 3rem;
+}
+
+img {
+  width: 5rem;
+  display: block;
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-bottom: 1.5rem;
+  margin-right: auto;
+  border-radius: 50%; /* make the image round */
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 0.75rem;
+}
+
+.residency {
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  color: #c5f82a;
+  margin-bottom: 1.75rem;
+}
+
+.occupation {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.social-links {
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+a:link {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #333333;
+  padding: 0.5rem 0;
+  cursor: pointer;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #1f1f1f;
+  background-color: #c5f82a;
+}
